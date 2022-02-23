@@ -1,0 +1,64 @@
+Paralelní programování na GPU (PCG 2021)
+Projekt c. 1 (cuda)
+Login: xlogin00
+
+
+
+
+Krok 0: základní implementace
+=============================
+Velikost dat    	čas [s]
+ 5 * n * 512              ...
+    ...                   ...
+    ...                   ...
+Pro n 10 az 25
+
+
+Vyskytla se nějaká anomálie v datech
+Pokud ano, vysvětlete:
+
+
+Krok 1: optimalizace kódu
+=====================
+Došlo ke zrychlení?
+
+Popište hlavní důvody:
+
+
+Porovnejte metriky s předchozím krokem:
+
+
+Krok 2: sdílená paměť
+=====================
+Došlo ke zrychlení?
+
+Zdůvodněte:
+
+
+Porovnejte metriky s předchozím krokem:
+
+
+
+Krok 5: analýza výkonu
+======================
+N            čas CPU [s]    čas GPU [s]    propustnost paměti [MB/s]    výkon [MFLOPS]    zrychlení [-]
+2^n * 1024      ...            ...            ...                          ...               ...
+    ...         ...            ...            ...                          ...               ...
+    ...         ...            ...            ...                          ...               ...
+
+Pro n 1 az 10
+
+Od jakého počtu částic se vyplatí počítat na grafické kartě?
+
+Krok 5: bonus - srovnání grafických karet
+======================
+N            čas GPU 1 [s]   propustnost 1 [MB/s]    výkon 1 [MFLOPS]   čas GPU 2 [s]  propustnost 2 [MB/s]    výkon 2 [MFLOPS]
+2^n * 1024      ...            ...            ...          ...             ...               ...                    ...
+    ...         ...            ...            ...          ...             ...               ...                    ...
+    ...         ...            ...            ...          ...             ...               ...                    ...
+
+Pro n 1 az 10
+
+Porovnejte grafické karty z hlediska výkonu a propustnosti paměti.
+
+===================================
